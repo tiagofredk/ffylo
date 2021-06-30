@@ -1,0 +1,22 @@
+body {
+    display: grid;
+    grid-template-columns: 70px auto 70px;
+    grid-template-rows: 8% auto 40% ;
+    grid-template-areas: 
+    "head head head"
+    ". mainsec ."
+    "foot foot foot"
+    ;
+
+    header {
+        grid-area: head;
+    }
+
+    main {
+        grid-area: mainsec;
+    }
+
+    footer {
+        grid-area: foot;
+    }
+}

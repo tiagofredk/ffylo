@@ -1,0 +1,25 @@
+$darkBlue : hsl(217, 28%, 15%);
+$darkBlue1 : hsl(218, 28%, 13%);
+$darkBlue2 : hsl(216, 53%, 9%);
+$darkBlue3 : hsl(219, 30%, 18%);
+$darkBlue4 :  hsl(218, 27%, 22%);
+
+$Cyan: hsl(176, 68%, 64%);
+$Blue: hsl(198, 60%, 50%);
+$Light: hsl(0, 100%, 63%);
+$White: hsl(0, 0%, 100%);
+
+@mixin font1 {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+@mixin font2 {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+

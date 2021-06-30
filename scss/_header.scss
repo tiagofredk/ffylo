@@ -1,0 +1,40 @@
+@use "./utils";
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .logo {
+        width: 200px;
+        height: 40px;
+        background-image: url("../img/logo.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-left: 7%;
+    }
+
+    nav {
+        ul {
+            width: 400px;
+            display: flex;
+            justify-content: space-around;
+            li{
+                list-style: none;
+                
+                a{
+                    text-decoration:none;
+                    font-size: 14px;
+                    color: white;
+                    transition: .55s;
+
+                    &:hover {
+                        transition: .55s;
+                        color: white;
+                        text-decoration:underline ;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+    }
+}
